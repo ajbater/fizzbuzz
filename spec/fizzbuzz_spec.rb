@@ -42,4 +42,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(4)).to eq 4
   end
 
+  it 'returns the original number, if the original number was 0' do
+    expect(fizzbuzz(0)).to eq 0
+  end
+
 end
